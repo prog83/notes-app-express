@@ -1,0 +1,34 @@
+{
+  "name": "notes-app-express",
+  "version": "0.1.0",
+  "description": "Notes App backend",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "author": "o.myronov",
+  "license": "MIT",
+  "homepage": "https://github.com/prog83/notes-app-express",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prog83/notes-app-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prog83/notes-app-express/issues"
+  },
+  "keywords": [
+    "Typescript",
+    "express",
+    "note"
+  ]
+}
